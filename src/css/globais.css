@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+  font-size: 62.5%;
+  color: var(--cor-branca);
+  font-weight: 300;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--cor-fundo-cinza-escuro);
+  font-family: var(--fonte-primaria);
+  font-size: var(--fonte-normal);
+}
+
+.outer-shadow {
+  box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
+}
+
+.inner-shadow {
+  box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.full-screen {
+  min-height: 100vh;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.section-title {
+  text-align: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 60px 0;
+}
+
+.section-title h2 {
+  font-size: var(--fonte-gigante);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.alinhar-itens-no-centro {
+  align-items: center;
+}
+
+.redes-sociais a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--cor-branca);
+  margin: 0 4px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.redes-sociais a i {
+  line-height: 40px;
+}
+
+.redes-sociais a:hover {
+  color: var(--cor-primaria);
+}
+
+/* TODO - mostrar que sem estilizar o after nao funciona o hover redondo */
+.redes-sociais a:after {
+  border-radius: 50%;
+}
+
+.botao {
+  font-size: var(--fonte-grande);
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all .3s ease;
+  background-color: var(--cor-primaria);
+}
+
+.botao:hover {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-branca);
+}
+
+.section{
+  padding: 7rem 0 7rem;
+}
