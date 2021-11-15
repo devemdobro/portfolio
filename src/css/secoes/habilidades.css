@@ -1,0 +1,44 @@
+/* HABILIDADES */
+.habilidades .container-habilidades {    
+    text-align: center;    
+    display: flex;
+    justify-content: center;    
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.habilidades .container-habilidades .informacoes{
+    max-width: 350px;
+    padding: 40px 20px;    
+}
+
+.habilidades .container-habilidades .informacoes p,
+.habilidades .container-habilidades .informacoes h3,
+.habilidades .container-habilidades .informacoes .logo i{
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.habilidades .container-habilidades .informacoes:hover p,
+.habilidades .container-habilidades .informacoes:hover h3,
+.habilidades .container-habilidades .informacoes:hover .logo i{
+    color: var(--cor-primaria);
+}
+
+.habilidades .container-habilidades .informacoes h3 {
+    font-size: var(--fonte-extra-grande);
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: var(--cor-primaria);      
+}
+
+.habilidades .container-habilidades .informacoes p {
+    font-size: 1.8rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.habilidades .container-habilidades .informacoes .logo i {
+    font-size: 8rem;
+}

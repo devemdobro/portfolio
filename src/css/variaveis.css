@@ -1,0 +1,21 @@
+:root {
+    --cor-primaria: #43bd8e;
+    --cor-secundaria: #FD6C22;    
+    --cor-branca: #fff;
+    --cor-fundo-escuro: #040203;    
+    --cor-fundo-cinza-escuro: #282828;
+    --cor-fundo-cinza-claro: #353535;    
+  }
+    
+  :root {
+    --fonte-primaria: 'Poppins', sans serif;
+    --fonte-secundaria: 'Raleway', sans serif;
+    --fonte-gigante: 4.5rem;
+    --fonte-extra-grande: 3rem;
+    --fonte-grande: 2.4rem;
+    --fonte-normal: 1.6rem;
+  }
+  
+  :root {
+    --mobile-padding: 30px;
+  }
