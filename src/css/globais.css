@@ -52,14 +52,6 @@ html {
     color: var(--cor-primaria);
   }
   
-  .outer-shadow {
-    box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
-  }
-  
-  .inner-shadow {
-    box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
-  }
-
   .section{
     padding: 7rem 0 7rem;
   }
