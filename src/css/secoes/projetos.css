@@ -1,7 +1,7 @@
 /* PROJETOS */
 .projetos .container-projetos {
     display: grid;        
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     margin: 0 auto;
     grid-gap: 20px;       
 }
@@ -30,6 +30,7 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     height: 100%;
+    width: 100%;
 }
 
 .projetos .container-projetos .projeto .informacoes-projeto {
